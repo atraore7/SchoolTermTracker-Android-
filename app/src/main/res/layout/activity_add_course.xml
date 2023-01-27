@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".UI.AddCourse"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <TextView
+                android:id="@+id/title6"
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="254dp"
+                android:text="Title"
+                android:textSize="13pt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/start6"
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="254dp"
+                android:text="Start Date"
+                android:textSize="13pt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/title6" />
+
+            <TextView
+                android:id="@+id/end6"
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="254dp"
+                android:text="End Date"
+                android:textSize="13pt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/start6" />
+
+            <TextView
+                android:id="@+id/status6"
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="254dp"
+                android:text="Status"
+                android:textSize="13pt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/end6" />
+
+            <TextView
+                android:id="@+id/instructor6"
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="254dp"
+                android:text="Instructor"
+                android:textSize="13pt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/status6" />
+
+            <TextView
+                android:id="@+id/term6"
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="254dp"
+                android:text="Term"
+                android:textSize="13pt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/email6" />
+
+            <TextView
+                android:id="@+id/notes6"
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="30dp"
+                android:text="Notes"
+                android:textSize="13pt"
+                app:layout_constraintEnd_toEndOf="@+id/term6"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/term6"
+                app:layout_constraintTop_toBottomOf="@+id/term6" />
+
+            <TextView
+                android:id="@+id/email6"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="254dp"
+                android:text="Instructor Email"
+                android:textSize="13pt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/phone6" />
+
+            <TextView
+                android:id="@+id/phone6"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="254dp"
+                android:text="Instructor Phone"
+                android:textSize="13pt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/instructor6" />
+
+            <EditText
+                android:id="@+id/titleInput6"
+                android:layout_width="220dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="15dp"
+                android:textSize="13pt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/title6"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/startInput6"
+                android:layout_width="220dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:textSize="13pt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/start6"
+                app:layout_constraintTop_toBottomOf="@+id/titleInput6" />
+
+            <EditText
+                android:id="@+id/endInput6"
+                android:layout_width="220dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:textSize="13pt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/end6"
+                app:layout_constraintTop_toBottomOf="@+id/startInput6" />
+
+            <EditText
+                android:id="@+id/instructorInput6"
+                android:layout_width="220dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="96dp"
+                android:layout_marginEnd="15dp"
+                android:textSize="13pt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/instructor6"
+                app:layout_constraintTop_toBottomOf="@+id/endInput6" />
+
+            <EditText
+                android:id="@+id/phoneInput6"
+                android:layout_width="220dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginEnd="15dp"
+                android:textSize="13pt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/phone6"
+                app:layout_constraintTop_toBottomOf="@+id/instructorInput6" />
+
+            <EditText
+                android:id="@+id/emailInput6"
+                android:layout_width="220dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="136dp"
+                android:layout_marginEnd="15dp"
+                android:textSize="13pt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/email6"
+                app:layout_constraintTop_toBottomOf="@+id/instructorInput6" />
+
+            <Spinner
+                android:id="@+id/statusSpinner6"
+                android:layout_width="220dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintStart_toEndOf="@+id/status6"
+                app:layout_constraintTop_toBottomOf="@+id/endInput6" />
+
+            <Spinner
+                android:id="@+id/termSpinner6"
+                android:layout_width="220dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="44dp"
+                android:layout_marginEnd="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/term6"
+                app:layout_constraintTop_toBottomOf="@+id/emailInput6" />
+
+            <EditText
+                android:id="@+id/MultiLineNotes6"
+                android:layout_width="385dp"
+                android:layout_height="259dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginEnd="15dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/term6"
+                app:layout_constraintTop_toBottomOf="@+id/termSpinner6" />
+
+            <Button
+                android:id="@+id/cancel_button5"
+                android:layout_width="125dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="75dp"
+                android:layout_marginBottom="15dp"
+                android:onClick="onCourseCancel"
+                android:text="Cancel"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/saveButton2"
+                app:layout_constraintTop_toBottomOf="@+id/MultiLineNotes6"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <Button
+                android:id="@+id/saveButton2"
+                android:onClick="onCourseSave"
+                android:layout_width="125dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="72dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="15dp"
+                android:text="Save"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/deleteButton6"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/MultiLineNotes6"
+                app:layout_constraintVertical_bias="0.0" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+

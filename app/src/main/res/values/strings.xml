@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">C196PAapplication</string>
+    <string name="channel_name">channelName</string>
+    <string name="channel_description">channelDescription</string>
+    <string-array name="Statuses">
+        <item>In Progress</item>
+        <item>Completed</item>
+        <item>Dropped</item>
+        <item>Plan to Take</item>
+    </string-array>
+    <string-array name="CourseTypes">
+        <item>Performance</item>
+        <item>Objective</item>
+    </string-array>
+</resources>

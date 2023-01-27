@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.addTerm">
+
+    <EditText
+        android:id="@+id/startInput"
+        android:layout_width="258dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="422dp"
+        android:hint="Start Date (MM-DD-YYYY)"
+        android:textSize="8pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/endInput"
+        android:layout_width="258dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="392dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="270dp"
+        android:hint="End Date (MM-DD-YYYY)"
+        android:textSize="8pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/endTxt"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="333dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="357dp"
+        android:text="End Date"
+        android:textSize="13pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/startTxt"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="185dp"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="505dp"
+        android:text="Start Date"
+        android:textSize="13pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/termNameTxt"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="654dp"
+        android:text="Term Name"
+        android:textSize="13pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/termNameInput"
+        android:layout_width="258dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="98dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="565dp"
+        android:hint="Enter Term Name"
+        android:textSize="8pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="165dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="525dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="153dp"
+        android:onClick="onSave"
+        android:text="Save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.TermDetails">
+
+    <EditText
+        android:id="@+id/startInput"
+        android:layout_width="258dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="422dp"
+        android:hint="MM/DD/YY"
+        android:inputType="text"
+        android:onClick="onViewCourses"
+        android:textSize="8pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/endInput"
+        android:layout_width="258dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="392dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="270dp"
+        android:hint="MM/DD/YY"
+        android:inputType="text"
+        android:textSize="8pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/endTxt"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="333dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="361dp"
+        android:text="End Date"
+        android:textSize="12pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/startTxt"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="185dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="509dp"
+        android:text="Start Date"
+        android:textSize="12pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/termNameTxt"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="657dp"
+        android:text="Term Name"
+        android:textSize="12pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/termNameInput"
+        android:layout_width="258dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="98dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="565dp"
+        android:hint="Enter Term Name"
+        android:inputType="text"
+        android:textSize="8pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="165dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="488dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="188dp"
+        android:onClick="onSave"
+        android:text="Save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="165dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="562dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="114dp"
+        android:onClick="onDelete"
+        android:text="Delete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.AssessmentDetails">
+
+    <EditText
+        android:id="@+id/endInput0"
+        android:layout_width="233dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="174dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="566dp"
+        android:hint="MM-DD-YYYY"
+        android:textSize="9pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/nameInput0"
+        android:layout_width="233dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="174dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="641dp"
+        android:textSize="12pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/assessmentNameInput"
+        android:layout_width="143dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="261dp"
+        android:layout_marginBottom="654dp"
+        android:text="Name"
+        android:textSize="10pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/endDateInput"
+        android:layout_width="143dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="261dp"
+        android:layout_marginBottom="579dp"
+        android:text="End Date"
+        android:textSize="10pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="123dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="324dp"
+        android:onClick="onCourseSave"
+        android:text="Save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/assessmentDelete"
+        android:layout_width="123dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginBottom="324dp"
+        android:onClick="onDelete"
+        android:text="Delete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/courseSpinner2"
+        app:layout_constraintStart_toEndOf="@+id/cancelButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Spinner
+        android:id="@+id/assessmentTypeSpinner"
+        android:layout_width="233dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="174dp"
+        android:layout_marginTop="183dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="498dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/assessmenttypetext"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="179dp"
+        android:layout_marginEnd="264dp"
+        android:layout_marginBottom="493dp"
+        android:text="Assessment Type"
+        android:textSize="10pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/courseText"
+        android:layout_width="143dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="268dp"
+        android:layout_marginEnd="264dp"
+        android:layout_marginBottom="426dp"
+        android:text="Course"
+        android:textSize="10pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/courseSpinner2"
+        android:layout_width="233dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="263dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="418dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

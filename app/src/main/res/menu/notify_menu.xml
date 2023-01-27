@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Notify Me On Start Date" android:orderInCategory="100" android:id="@+id/notifyStart"/>
+    <item android:title="Notify Me On End Date" android:orderInCategory="100" android:id="@+id/notifyEnd"/>
+
+
+</menu>
